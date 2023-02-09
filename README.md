@@ -1,2 +1,8 @@
 # generate-bip39-seed
-A command-line tool to generate a BIP39 seed containing 12 or 24 English words
+
+You need a Go compiler to use this tool.
+
+Usage:
+`go run .`
+`go run . --words=12` (default)
+`go run . --words=24`
